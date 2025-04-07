@@ -1,0 +1,11 @@
+### Test inscription utilisateur
+POST http://127.0.0.1:8000/api/users
+Content-Type: application/json
+
+{
+  "name": "Marie",
+  "email": "marie@example.com",
+  "password": "password123",
+  "password_confirmation": "password123",
+  "role": "user"
+}
